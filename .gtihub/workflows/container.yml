@@ -1,8 +1,8 @@
 name: deploy-container
 
 on:
-  pushe:
-    - master
+  push:
+    - main
   paths:
     - "packages/container/**"
 
